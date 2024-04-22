@@ -17,8 +17,8 @@ interface ERC20Interface{
  
 //Actual token contract 
 contract DIOToken is ERC20Interface{
-    string public symbol = "WIL" ;
-    string public  name = "WIL Coin";
+    string public symbol = "DIO" ;
+    string public  name = "DIO Coin";
     uint8 public decimals = 2;
     uint256 public _totalSupply;
  
